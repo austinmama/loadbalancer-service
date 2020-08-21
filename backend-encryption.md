@@ -22,14 +22,14 @@ subcollection: loadbalancer-service
 {:help: data-hd-content-type='help'}
 {:support: data-reuse='support'}
 
-# Setting backend encryption
+# Setting back-end encryption
 {: #setting-backend-encryption}
 {: help}
 {: support}
 
-Backend encryption is supported to allow end-to-end data traffic encryption. Not only is the traffic between the load balancer and the client encrypted, but so is the traffic between the load balancer and the backend server.
+Back-end encryption is supported to allow end-to-end data traffic encryption. Not only is the traffic between the load balancer and the client encrypted, but so is the traffic between the load balancer and the backend server.
 
-To enable backend encryption:
+To enable back-end encryption:
 
-* If you are adding a new HTTPS protocol, set the frontend and backend to **HTTPS**.
-* For existing HTTPS protocols, set the backend to **HTTPS**.
+* If you are adding a new HTTPS protocol, set the front-end and back-end encryption to **HTTPS**.
+* For existing HTTPS protocols, set the back-end encryption to **HTTPS**.
